@@ -5,7 +5,8 @@ ruby '2.3.4'
 
 
 gem 'rails', '~> 5.2.2'
-
+gem 'bootstrap-sass', '~>3.3.6'
+gem 'autoprefixer-rails', '~>6.3.7'
 gem 'sqlite3', "~> 1.3.6"
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
