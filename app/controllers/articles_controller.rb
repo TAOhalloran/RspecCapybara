@@ -16,6 +16,10 @@ class ArticlesController < ApplicationController
     end
   end
   
+  def index
+    @articles = Article.all
+  end
+  
   private
     def article_params
       params.require(:article).permit(:title, :body) 
